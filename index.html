@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Week 15</title>
+</head>
+<body>
+    <div class="main">
+        <div class="01">
+            <h1>Large Number b/w two</h1>
+            <p id="show"></p>
+            <button onclick="max()">Max b/w two</button>
+        </div>
+        <div class="02">
+            <h1>Large b/w three numbers</h1>
+            <p id="max3"></p>
+            <button onclick="max3()">max b/w three</button>
+        </div>
+        <div class="03">
+            <h1>Numer is Positive , Negative or Zero</h1>
+            <p id="numberIs"></p>
+            <button onclick="checkNumber()">Negative or Positve</button>
+        </div>
+        <div class="04">
+            <h1>Number is Divisible by 5, 11 or Not</h1>
+            <p id="divisible"></p>
+            <button onclick="checkDivisible()">Divisible by ?</button>
+        </div>
+        <div class="05">
+            <h1>Check your Number is Even or Odd</h1>
+            <p id="evenOdd"></p>
+            <button onclick="evenOdd()">Even/ODD ?</button>
+        </div>
+        <div class="06">
+            <h1>Year is a Leap or Not</h1>
+            <p id="leapYear"></p>
+            <button onclick="leapYear()">Year is ?</button>
+        </div>
+        <div class="07">
+            <h1>Alphabet is Vowel or Consonat</h1>
+            <p id="alphabet"></p>
+            <button onclick="alphabet()">Alphabet is ?</button>
+        </div>
+        <div class="08">
+            <h1>Character is Alphabet or Not</h1>
+            <p id="characterIs"></p>
+            <button onclick="characterIs()">Character Is ?</button>
+        </div>
+        <div class="09">
+            <h1>Character is Alphabet , Special <br> Character or Number</h1>
+            <p id="checkCharacter"></p>
+            <button onclick="checkCharacter()">Check Character</button>
+        </div>
+    </div>
+    <h1 id="module"> <u>String Handling</u> </h1>
+    <div class="string">
+        <div class="string">
+            <h1>Length of a String</h1>
+            <p id="lengthOfString"></p>
+            <button onclick="lengthOfString()">Check Length</button>
+        </div>
+        <div class="string">
+            <h1>Copy One String to Another</h1>
+            <p id="copyString"></p>
+            <p id="copyString1"></p>
+            <button onclick="copyString()">Copy String</button>
+        </div>
+        <div class="string">
+            <h1>Concatenate The Strings</h1>
+            <p id="concatenate"></p>
+            <button onclick="concatenate()">Concatenate String</button>
+        </div>
+        <div class="string">
+            <h1>Compare Two Strings</h1>
+            <p id="compare"></p>
+            <button onclick="compare()">Compare Strings</button>
+        </div>
+        <div class="string">
+            <h1>LowerCase String to UpperCase</h1>
+            <input id="input" style="text-transform: lowercase;" type="text">
+            <p id="case1"></p>
+            <button onclick="case1()">Lower to UpperCase</button>
+        </div>
+        <div class="string">
+            <h1>UpperCase to LowerCase</h1>
+            <input id="input1" style="text-transform: uppercase;" type="text">
+            <p id="case2"></p>
+            <button onclick="case2()">Change to LowerCase</button>
+        </div>
+        <div class="string">
+            <h1>Toggle Case of Each Character</h1>
+            <input id="toggleInput" type="text">
+            <p id="toggle"></p>
+            <button onclick="toggle()">Toggle Each Character</button>
+        </div>
+        
+    </div>
+    <div>
+        <h1 id="module"> <u>Array Handling</u> </h1>
+        <div class="array">
+            <h1>Reading & Print Elements From Array</h1>
+            <p id="array1"></p>
+            <button onclick="array1()">Print Array</button>
+        </div>
+    </div>
+    <div class="module">
+        <h1>Print All Negative elements</h1>
+        <p id="negativeElements"></p>
+        <button onclick="negativeElements()">Print Negative Elements</button>
+    </div>
+    <h1 id="module">Math Method</h1>
+    <div>
+        <h1>Round The NUmber Without Round Method</h1>
+        <input type="number" id="roundInput">
+        <p id="round"></p>
+        <button onclick="round()">Round the Nmber</button>
+    </div>
+    <div>
+        <h1>Ceil the Number Without using Ceil Method</h1>
+        <input type="number" id="ceilInput">
+        <p id="ceil"></p>
+        <button onclick="ceil()">Ceil the Nmber</button>
+    </div>
+    <div>
+        <h1>Floor the Number Without Using the Floor Method</h1>
+        <input type="number" id="floorInput">
+        <p id="floor"></p>
+        <button onclick="floor()">Floor the Number</button>
+    </div>
+    <h1 id="module">LOOPS</h1>
+    <div>
+        <h1>Print all Natural Number 1 to N</h1>
+        <input type="number" id="sumInput">
+        <p id="naturalNumber"></p>
+        <button onclick="naturalNumber()">Print All</button>
+    </div>
+    <div>
+        <h1>Print All Natural Number in Reverse</h1>
+        <input type="number" id="reverseInput">
+        <p id="reverse"></p>
+        <button onclick="reverse()">Print Reverse Number</button>
+    </div>
+    <div>
+        <h1>All Alphabets from A to Z</h1>
+        <p id="alphabets"></p>
+        <button onclick="alphabets()">Print All Alphabets</button>
+    </div>
+    <div>
+        <h1>All Even Number b/w 1 to 100</h1>
+        <p id="even"></p>
+        <button onclick="even()">Find Even Numbers</button>
+    </div>
+    <div>
+        <h1>All Odd Number b/w 1 to 100</h1>
+        <p id="odd"></p>
+        <button onclick="odd()">Find Odd Numbers</button>
+    </div>
+    <u><u><h1 id="module">FINISH</h1></u></u>
+    <script src="script.js"></script>
+</body>
+</html>

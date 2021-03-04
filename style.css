@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+div{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+h1{
+  color:darkviolet;  
+  margin: 5px 10px;
+}
+#module{
+    color : black;
+    margin:15px;
+}
+p,button{
+    font-size: large;
+    margin: 5px 10px;
+}
+button{
+    padding: 5px 1px;
+    border: 1px solid ;
+    
+    padding: 10px;
+    color: white;
+    background:rgb(58, 114, 114);
+}
+input{
+    height: 40px;
+    font-size: large;
+    margin: 10px;
+}
+button:hover{
+    
+    background: rgb(70, 170, 204);
+    color: white;
+}
